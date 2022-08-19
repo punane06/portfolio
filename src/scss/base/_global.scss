@@ -25,3 +25,12 @@
 .text-dark {
   color: $main-color;
 }
+
+.text-button {
+  font-size: 28px;
+  line-height: 35px;
+  background: $main-color-orange;
+  color: $main-color;
+  border-radius: 25px;
+  padding: 10px 25px;
+}

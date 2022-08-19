@@ -199,21 +199,33 @@ button {
   color: #0d1225;
 }
 
+.text-button {
+  font-size: 28px;
+  line-height: 35px;
+  background: #ffb400;
+  color: #0d1225;
+  border-radius: 25px;
+  padding: 10px 25px;
+}
+
 body {
   font-family: "Architects Daughter", sans-serif;
 }
 
-h1 {
+h1,
+.h1 {
   font-size: 64px;
   line-height: 79px;
 }
 
-h2 {
+h2,
+.h2 {
   font-size: 48px;
   line-height: 59px;
 }
 
-h3 {
+h3,
+.h3 {
   font-size: 28px;
   line-height: 35px;
 }
@@ -242,10 +254,17 @@ h3 {
 
 .navbar {
   display: flex;
+  width: 630px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-  color: #ffffff;
+  margin-right: 26px;
+}
+.logo img {
+  width: 158px;
+  height: auto;
 }
 
 .hero {
@@ -275,7 +294,40 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: center;
   position: relative;
   z-index: 2;
   padding-bottom: 76px;
+}
+.hero-content h1 {
+  margin-bottom: 44px;
+}
+
+.hero-buttons-container {
+  width: 480px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github-button img,
+.linkedin-button img {
+  width: 39px;
+  height: 39px;
+}
+
+.download-button a {
+  padding: 6px;
+  font-size: 28px;
+  line-height: 34.61px;
+  color: #ffb400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.download-button img {
+  padding-top: 2px;
+  width: 24px;
+  height: 24px;
+  margin-left: 3px;
 }/*# sourceMappingURL=main.css.map */

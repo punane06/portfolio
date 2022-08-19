@@ -1,20 +1,17 @@
 import React from "react";
 import "./App.scss";
 import "./scss/main.scss";
-import Hero from "./blocks/Hero";
-import NavBar from "./components/Navbar";
-// import Portfolio from "./blocks/Portfolio";
-// import AboutMe from "./blocks/AboutMe";
-// import Contact from "./blocks/Contact";
+import { Route, Routes } from "react-router";
+import PortfolioCase from "./views/PortfolioCase";
+import LandingPage from "./views/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Hero />
-      {/* <Portfolio />
-      <AboutMe />
-      <Contact /> */}
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/portfolio-case" element={<PortfolioCase />} />
+      </Routes>
     </div>
   );
 }

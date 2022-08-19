@@ -15,8 +15,15 @@
 
 .navbar {
   display: flex;
+  width: 630px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-  color: $white;
+  margin-right: 26px;
+  img {
+    width: 158px;
+    height: auto;
+  }
 }
