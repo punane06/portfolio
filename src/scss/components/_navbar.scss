@@ -1,16 +1,22 @@
 .navbar-container {
+  position: fixed;
+  top: -$m-navbar;
   height: $m-navbar;
   width: 100%;
-  background: $main-color;
-  position: relative;
+  background: $main-color-05;
+  display: block;
+  transition: top 0.1s;
   z-index: 20;
   border-bottom: 1px solid $main-color-orange;
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 37px;
+    padding-top: 15px;
   }
+}
+.navbar-open {
+  top: 0;
 }
 
 .navbar {
@@ -18,6 +24,9 @@
   width: 630px;
   display: flex;
   justify-content: space-between;
+}
+nav {
+  padding: 10px 20px;
 }
 
 .logo {

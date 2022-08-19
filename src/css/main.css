@@ -237,11 +237,38 @@ h3,
   color: #ffffff;
 }
 
+.footer-container {
+  height: 160px;
+  background-color: #0d1225;
+  border-top: 1px solid #ffb400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.links {
+  display: flex;
+}
+.links a {
+  margin-left: 20px;
+}
+
 .navbar-container {
-  height: 96px;
+  position: fixed;
+  top: -80px;
+  height: 80px;
   width: 100%;
-  background: #0d1225;
-  position: relative;
+  background: rgba(13, 18, 37, 0.5);
+  display: block;
+  transition: top 0.1s;
   z-index: 20;
   border-bottom: 1px solid #ffb400;
 }
@@ -249,7 +276,11 @@ h3,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 37px;
+  padding-top: 15px;
+}
+
+.navbar-open {
+  top: 0;
 }
 
 .navbar {
@@ -257,6 +288,10 @@ h3,
   width: 630px;
   display: flex;
   justify-content: space-between;
+}
+
+nav {
+  padding: 10px 20px;
 }
 
 .logo {
@@ -272,17 +307,15 @@ h3,
   width: 100vw;
   height: 100vh;
   color: #ffffff;
-  margin-top: -96px;
-  padding-top: 96px;
+  padding-top: 80px;
   position: relative;
 }
 
 .hero-bg {
   position: absolute;
   bottom: 0;
-  height: 100%;
   width: 100%;
-  padding-top: 96px;
+  padding-top: 80px;
 }
 .hero-bg img {
   height: auto;
@@ -330,4 +363,8 @@ h3,
   width: 24px;
   height: 24px;
   margin-left: 3px;
+}
+
+#portfolio {
+  height: 700px;
 }/*# sourceMappingURL=main.css.map */

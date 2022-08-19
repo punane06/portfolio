@@ -1,6 +1,23 @@
+import { useEffect, useState } from "react";
+
 function NavBar() {
+  const [show, setShow] = useState(true);
+  const controlNavBar = () => {
+    if (window.scrollY > 100) {
+      setShow(false);
+    } else {
+      setShow(true);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavBar);
+    return () => {
+      window.removeEventListener("scroll", controlNavBar);
+    };
+  }, []);
+
   return (
-    <div className="navbar-container">
+    <div className={`navbar-container ${show && "navbar-open"}`}>
       <div className="container">
         <div className="logo-container">
           <div className="logo">

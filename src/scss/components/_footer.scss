@@ -1,0 +1,22 @@
+.footer-container {
+  height: 160px;
+  background-color: $main-color;
+  border-top: 1px solid $main-color-orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  opacity: 0.5;
+}
+.links {
+  display: flex;
+  a {
+    margin-left: 20px;
+  }
+}
