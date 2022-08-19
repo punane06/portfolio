@@ -1,0 +1,22 @@
+.navbar-container {
+  height: $m-navbar;
+  width: 100%;
+  background: $main-color;
+  position: relative;
+  z-index: 20;
+  border-bottom: 1px solid $main-color-orange;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 37px;
+  }
+}
+
+.navbar {
+  display: flex;
+}
+
+.logo {
+  color: $white;
+}

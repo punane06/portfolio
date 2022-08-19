@@ -1,4 +1,16 @@
-.App-header {
-  color: red;
-  margin-bottom: -304px;
-}
+@charset 'utf-8';
+
+// // font-family
+// @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+// helpers
+@import "helpers/variables", "helpers/mixins", "helpers/keyframes";
+
+// base
+@import "base/reset", "base/global", "base/typography";
+
+// components
+@import "components/footer", "components/navbar";
+
+// blocks
+@import "blocks/hero", "blocks/portfolio", "blocks/about-me", "blocks/contact";

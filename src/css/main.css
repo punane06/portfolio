@@ -1,4 +1,281 @@
-.App-header {
-  color: red;
-  margin-bottom: -304px;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+main,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+html {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+footer,
+header,
+nav,
+section,
+main,
+article,
+aside,
+details,
+figcaption,
+figure,
+hgroup,
+menu,
+nav {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+input,
+button,
+submit {
+  border: none;
+  color: none;
+}
+
+button {
+  background: none;
+  color: inherit;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+/* architects-daughter-regular - latin */
+@font-face {
+  font-family: "Architects Daughter";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../../assets/fonts/architects-daughter-v18-latin-regular.woff2") format("woff2"), url("../../assets/fonts/architects-daughter-v18-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.text-color {
+  color: #ffb400;
+}
+
+.text-dark {
+  color: #0d1225;
+}
+
+body {
+  font-family: "Architects Daughter", sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 79px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 59px;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.body-text {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.navbar-container {
+  height: 96px;
+  width: 100%;
+  background: #0d1225;
+  position: relative;
+  z-index: 20;
+  border-bottom: 1px solid #ffb400;
+}
+.navbar-container .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 37px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.logo {
+  color: #ffffff;
+}
+
+.hero {
+  background: #0d1225;
+  width: 100vw;
+  height: 100vh;
+  color: #ffffff;
+  margin-top: -96px;
+  padding-top: 96px;
+  position: relative;
+}
+
+.hero-bg {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  padding-top: 96px;
+}
+.hero-bg img {
+  height: auto;
+  width: auto;
+}
+
+.hero-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 2;
+  padding-bottom: 76px;
 }/*# sourceMappingURL=main.css.map */

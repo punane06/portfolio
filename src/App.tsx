@@ -1,15 +1,20 @@
 import React from "react";
 import "./App.scss";
 import "./scss/main.scss";
-import image1 from "./assets/images/acv_Kerner_Kadi.jpg";
-import image2 from "./assets/images/Kadi_Kerner.jpg";
+import Hero from "./blocks/Hero";
+import NavBar from "./components/Navbar";
+// import Portfolio from "./blocks/Portfolio";
+// import AboutMe from "./blocks/AboutMe";
+// import Contact from "./blocks/Contact";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Hello World!</header>
-      <img src={image1} alt="me1" />
-      <img src={image2} alt="me2" />
+      <NavBar />
+      <Hero />
+      {/* <Portfolio />
+      <AboutMe />
+      <Contact /> */}
     </div>
   );
 }
