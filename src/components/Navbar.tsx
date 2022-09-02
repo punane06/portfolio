@@ -26,7 +26,7 @@ function NavBar() {
             </a>
           </div>
         </div>
-        <div className="navbar text-color">
+        <div className="navbar text--color">
           <nav className="h3">
             <a href="#hero">Home</a>
           </nav>

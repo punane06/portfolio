@@ -1,0 +1,21 @@
+.contact {
+  background: $main-color-09;
+  color: $white;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  &-info {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    &__h2,
+    &__text {
+      margin-bottom: 30px;
+    }
+  }
+}

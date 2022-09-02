@@ -2,15 +2,15 @@ function Hero() {
   return (
     <div className="hero" id="hero">
       <div className="hero-content">
-        <h2>Hello, my name’s Kadi</h2>
-        <h1>
-          I’m <span className="text-color">Front-end</span> Developer
+        <h2 className="hero-content__h2">Hello, my name’s Kadi</h2>
+        <h1 className="hero-content__h1">
+          I’m <span className="text--color">Front-end</span> Developer
         </h1>
-        <div className="hero-buttons-container">
-          <button className="text-button">
+        <div className="hero-buttons">
+          <button className="btn btn__text">
             <a href="#contact">Contact me</a>
           </button>
-          <button className="github-button">
+          <button className="btn btn__icon--github">
             <a
               href="https://github.com/punane06"
               target="_blank"
@@ -19,7 +19,7 @@ function Hero() {
               <img src={require("../assets/images/github.png")} alt="Github" />
             </a>
           </button>
-          <button className="linkedin-button">
+          <button className="btn__icon--linkedin">
             <a
               href="https://www.linkedin.com/in/kadi-kerner/"
               target="_blank"
@@ -31,7 +31,7 @@ function Hero() {
               />
             </a>
           </button>
-          <button className="download-button">
+          <button className="btn__download">
             {/* TODO lisada siia cv link, kui see on onlines yleval */}
             <a
               href="https://drive.google.com/file/d/1aT4PrG2DoYRV_oKlBNSu-p4hDfx-PZ5u/view?usp=sharing"

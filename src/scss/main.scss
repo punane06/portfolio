@@ -12,5 +12,6 @@
 // components
 @import "components/footer", "components/navbar";
 
-// blocks
-@import "blocks/hero", "blocks/portfolio", "blocks/about-me", "blocks/contact";
+// layouts
+@import "layouts/hero", "layouts/portfolio", "layouts/about-me",
+  "layouts/contact";

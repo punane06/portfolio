@@ -1,8 +1,8 @@
 import NavBar from "../components/Navbar";
-import Hero from "../blocks/Hero";
-// import Portfolio from "../blocks/Portfolio";
-// import AboutMe from "../blocks/AboutMe";
-// import Contact from "../blocks/Contact";
+import Hero from "../layouts/Hero";
+// import Portfolio from "../layouts/Portfolio";
+// import AboutMe from "../layouts/AboutMe";
+import Contact from "../layouts/Contact";
 import Footer from "../components/Footer";
 
 function LandingPage() {
@@ -12,7 +12,7 @@ function LandingPage() {
       <Hero />
       {/* <Portfolio /> */}
       {/* <AboutMe /> */}
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </div>
   );
