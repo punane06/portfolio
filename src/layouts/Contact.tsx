@@ -5,14 +5,13 @@ function Contact() {
         <div className="contact-info">
           <h2 className="contact-info__h2 text--color">Contact ME</h2>
           <div className="contact-info__text body-text">
-            Have some greate idea?
-            <br />
-            Let me know!
+            <p>Have some greate idea?</p>
+            <p>Let me know!</p>
           </div>
           <div className="contact-info__text body-text">
-            +372 5563 2256
+            <a href="tel: +372-5563-2256">+372 5563 2256</a>
             <br />
-            kadikerner@gmail.com
+            <a href="mailto: kadikerner@gmail.com">kadikerner@gmail.com</a>
           </div>
         </div>
         <div className="contact-form">Form</div>

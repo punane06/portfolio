@@ -184,6 +184,20 @@ button {
   font-weight: 400;
   src: local(""), url("../../assets/fonts/architects-daughter-v18-latin-regular.woff2") format("woff2"), url("../../assets/fonts/architects-daughter-v18-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+/* roboto-300 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("../../assets/fonts/roboto-v30-latin-300.woff2") format("woff2"), url("../../assets/fonts/roboto-v30-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../../assets/fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../../assets/fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 .container {
   max-width: 1440px;
   margin: auto;
@@ -267,9 +281,9 @@ h3,
 
 .body-text {
   font-family: "Roboto";
+  font-weight: 300;
   font-size: 24px;
   line-height: 30px;
-  font-weight: 300;
   color: #ffffff;
   font-style: normal;
 }
