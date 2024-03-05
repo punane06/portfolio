@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="footer">
-        <h3 className="copyright text--color">Copyright © 2022 Kadi Kerner</h3>
+        <h3 className="copyright text--color">Copyright © {new Date().getFullYear()} Kadi Kerner</h3>
         <div className="links text--color h3">
           <a href="#hero">Home</a>
           <button className="btn__icon--github">
