@@ -4,6 +4,7 @@ import Hero from "../layouts/Hero";
 // import AboutMe from "../layouts/AboutMe";
 import Contact from "../layouts/Contact";
 import Footer from "../components/Footer";
+import AboutMe from "../layouts/AboutMe";
 
 function LandingPage() {
   return (
@@ -11,7 +12,7 @@ function LandingPage() {
       <NavBar />
       <Hero />
       {/* <Portfolio /> */}
-      {/* <AboutMe /> */}
+      <AboutMe />
       <Contact />
       <Footer />
     </div>
