@@ -1,6 +1,6 @@
 import NavBar from "../components/Navbar";
 import Hero from "../layouts/Hero";
-// import Portfolio from "../layouts/Portfolio";
+import Portfolio from "../layouts/Portfolio";
 // import AboutMe from "../layouts/AboutMe";
 import Contact from "../layouts/Contact";
 import Footer from "../components/Footer";
@@ -11,7 +11,7 @@ function LandingPage() {
     <div>
       <NavBar />
       <Hero />
-      {/* <Portfolio /> */}
+      <Portfolio />
       <AboutMe />
       <Contact />
       <Footer />
